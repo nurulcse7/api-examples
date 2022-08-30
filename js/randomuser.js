@@ -11,7 +11,7 @@ const displayUsers = users =>{
         const userDiv = document.createElement('div');
         userDiv.classList.add('user');
         userDiv.innerHTML = `
-            <h3> ${user.name.first} ${user.name.last}</h3>
+            <h3>Name: ${user.name.first} ${user.name.last}</h3>
             <p>Email: ${user.email}</p>
             <p>User Location: ${user.location.city} ${user.location.country}</p>
         `;

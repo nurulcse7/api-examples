@@ -56,6 +56,7 @@ const displayMealDetails = meal =>{
     </div>
     `;
     detailContainer.appendChild(mealDiv);
+    
 }
 
 loadMeals('');
